@@ -152,7 +152,6 @@ const fazerCheckin = (event) =>{
     return
   }
 
-  alert(resultado)
   // encontrar o participante dentro da lista
   const participante = participantes.find((p) => {
     return p.email == event.target.dataset.email
