@@ -6,6 +6,7 @@
 
 :root{
   --border: 1px solid #ffffffa1;
+  --darkergreen: #00292e;
 }
 
 body, table, input, button{
@@ -66,7 +67,7 @@ fieldset button{
   padding: 7px 20px;
 
   font: 700 12px/24px 'Roboto', sans-serif;
-  color: #00292E;
+  color: var(--darkergreen);
 }
 
 fieldset button:hover{
